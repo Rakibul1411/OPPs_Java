@@ -7,4 +7,7 @@ public class Message {
     public static void message() {
         System.out.println("I am in Message Class.");
     }
+    public Message(){
+        System.out.println("Hii");
+    }
 }

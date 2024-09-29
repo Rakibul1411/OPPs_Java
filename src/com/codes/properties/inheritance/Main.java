@@ -18,6 +18,7 @@ public class Main {
         // This is a reference type of Box, and it is referencing to an object type BoxWeight
         Box box5 = new BoxWeight(2, 3, 4, 8);
         System.out.println(box5.w);
+//        System.out.println(box5.shape); // not allowed
 
         // Opposite case not valid
 //        BoxWeight box6 = new Box(2, 3, 4);
@@ -36,6 +37,9 @@ public class Main {
         box7.greeting();
         BoxWeight boxWeight = new BoxWeight();
         boxWeight.greeting();
+
+        System.out.println(box7.weight);
+//        System.out.println(box7.shape);
 
     }
 }

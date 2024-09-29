@@ -2,6 +2,7 @@ package com.codes.properties.inheritance;
 
 public class BoxWeight extends Box{
     double weight;
+    double shape;
 
     static void greeting() {
         System.out.println("Hey, I am in BoxWeight Class..!!");
